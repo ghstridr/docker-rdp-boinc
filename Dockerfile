@@ -47,7 +47,7 @@ ADD firstrun.sh /etc/my_init.d/firstrun.sh
 RUN chmod +x /etc/my_init.d/firstrun.sh && \
 mkdir -p /nobody/boinc && \
 cd /nobody/boinc && \
-wget http://boinc.berkeley.edu/dl/boinc_7.2.42_x86_64-pc-linux-gnu.sh
+wget http://boinc.berkeley.edu/dl/boinc_7.4.22_x86_64-pc-linux-gnu.sh
 
 # Copy X app start script to right location
 COPY startapp.sh /startapp.sh
