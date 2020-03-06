@@ -29,3 +29,9 @@ Some platforms like Debian are having issues with setting timezones. If you get 
 *** /etc/my_init.d/00_config.sh failed with status 1` and the container stops, remove the following from your run command: `-v /etc/localtime:/etc/localtime:ro` and replace it with the following: `-e TZ="America/New_York"`
 
 You can change the timezone to yours according to the list here: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+=======
+1. Install the plugin in the following linked thread http://lime-technology.com/forum/index.php?topic=39106.0 <br />
+2. Scroll down and click on the logo <br />
+3. Put in your library location and port <br />
+4. Open the WebUI <br />
+5. Profit
